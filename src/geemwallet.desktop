@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Geem Wallet
+Comment=Geem wallet
+Exec=geemwallet %U
+Terminal=false
+Type=Application
+Icon=Geem
+MimeType=x-scheme-handler/geem;
+Categories=Office;Finance;
+Version=2.4.1

@@ -1,0 +1,44 @@
+Release notes Geem 2.4.1
+
+- Limit reorganization depth to mined money unlock window
+- Do not reorganize to alternative chain if it lacks at least one transaction from the public chain (51%-attack protection)
+- Disallow merged mining tag in the coinbase transaction
+- LWMA difficulty algorithm fix
+- Blockchain checkpoints upto 200000
+- Major Block version upgrade(s)
+
+Release notes Geem 2.4.0
+
+- Addresses the burning bug issue
+- Doesn't process burning transactions in the wallet
+- Wallet correctly throws an error when duplicate output key is found
+- Checks against outputs keys stored in memory while the wallet is running
+- When reset it will check all transactions against all output keys
+- Checkpoints up to block 151900
+- GeemWallet and GeemWallet2 binaries compiled against version 2.4.0.
+
+Release notes Geem 2.3.9
+
+- Blockchain checkpoints upto block 130900
+- Various recursive typo corrections
+- Various code improvements
+- Adaptive fees now enabled
+- Transaction Verification and payment proof methods implemented
+- Transactions with individual keys for payment verification between private parties
+- Blockchain integration with explorer for payment verification
+- Version codename Nebula
+- Version friendly name The StarDust
+
+Release notes Geem 2.3.8
+
+- Blockchain checkpoints upto 85K
+- Various recursive typo corrections
+- Various code improvements
+- SimpleWallet and GUI wallet now supports unmixable dust
+- Version codename Sitara
+- Version frienly name The Northern Star
+- First ASCII Art for the Geem Daemon
+
+Release notes Geem 2.3.7
+
+- Initial release. Version started at 2.3.7.
